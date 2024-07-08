@@ -35,18 +35,16 @@ For this question, I attempt a visual estimate via plotting the daily temperatur
 Using the visualization, I attempt to find the 'repeating point' of the data (i.e: the point where I belive the yearly temperature starts the next cycle).
 Using this method, I found an average of 650 days in a Martian year.
 However, I had another avenue to estimate the amount of days in a year on Mars.
-
-
+I make two lists: one containing entries where the solar longitude of Mars is 0 and one where the solar longitude of Mars is 359 and fill the lists with the appropriate entries.
+I create another list that is empty so that I can store the results of the calculations.
+Then, I loop thru the two lists of data and create ranges with the following logic:  
+1. First, check that the start ID (row number) is greater than the prior start ID and end ID.
+2. Second, check that the end ID is greater than the last end ID and start ID.
+3. Afterwards, a proper range is created using the start ID row as the beginning of the range, and the end ID row as the end.
+4. I grab a timedelta of the terrestrial date of each entry and store that into the results list.
+After running the calculation, I end up with a results list containing two values, both of which are 685 days.
+Using this method, I arrive at the estimate of there being 685 Earth days in a Martian year.
 
 # Built In  
 Python.  
 Jupyter Notebook.  
-
-
-How many months exist on Mars? (5 points)
-How many Martian days' worth of data are there? (5 points)
-The data was analyzed to answer the following questions, and a data visualization was created to support each answer: (30 points)
-
-Which month, on average, has the lowest temperature? The highest? (10 points)
-Which month, on average, has the lowest atmospheric pressure? The highest? (10 points)
-How many terrestrial days exist in a Martian year? A visual estimate within 25% was made. (10 points)
