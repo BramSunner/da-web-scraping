@@ -35,7 +35,7 @@ I create another barchart representing the data to visualize the answer.
 5. How many terrestrial days exist in a Martian year?  
 
 For this question, I attempt a visual estimate via plotting the daily temperature on Mars on a scatterplot.  
-Using the visualization, I attempt to find the 'repeating point' of the data (i.e: the point where I belive the yearly temperature starts the next cycle).  
+Using the visualization, I attempt to find the 'repeating point' of the data.
 Using this method, I found an average of 650 days in a Martian year.  
 However, I had another avenue to estimate the amount of days in a year on Mars.  
 I make two lists: one containing entries where the solar longitude of Mars is 0 and one where the solar longitude of Mars is 359 and fill the lists with the appropriate entries.  
