@@ -42,6 +42,7 @@ Then, I loop thru the two lists of data and create ranges with the following log
 2. Second, check that the end ID is greater than the last end ID and start ID.
 3. Afterwards, a proper range is created using the start ID row as the beginning of the range, and the end ID row as the end.
 4. I grab a timedelta of the terrestrial date of each entry and store that into the results list.
+
 After running the calculation, I end up with a results list containing two values, both of which are 685 days.
 Using this method, I arrive at the estimate of there being 685 Earth days in a Martian year.
 
