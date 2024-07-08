@@ -10,7 +10,7 @@ Last, I loop thru the soup object grabbing all of the article titles and preview
 
 ## Mars Weather
 
-This module scrapes a website containing 'Martian weather data from the curiosity rover' and uses it for analysis.
+This module scrapes a website containing 'Martian weather data from the curiosity rover' and uses it for analysis.  
 In this module, I first use selenium with splinter to open the website and extract the html.  
 Again, I use BeautifulSoup to create a soup object of the extracted html.  
 Then, I find all of the table rows within the html and store them into a variable 'rows'.  
