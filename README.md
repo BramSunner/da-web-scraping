@@ -25,12 +25,15 @@ Once I have the DataFrame created, I begin the analysis of the data.
 1. How many months exist on Mars? - I answer this with a unique count of the months represented in the data.
 2. How many Martian days' worth of data are there? - I answer this with a count of the rows in the dataset, considering each entry is from a unique day, this gives the amount of days represented in the observations.  
 3. Which month, on average, has the lowest temperature? The highest?  
+
 This question is answered via grouping the data into months and calling for the average temperature.
 Afterwards, I create a barchart represented the data to visualize the answer.
 4. Which month, on average, has the lowest atmospheric pressure? The highest?
+
 This question is answered, again, by grouping the data via month and calling for the average pressure.
 I create another barchart representing the data to visualize the answer.
 5. How many terrestrial days exist in a Martian year?
+
 For this question, I attempt a visual estimate via plotting the daily temperature on Mars on a scatterplot.
 Using the visualization, I attempt to find the 'repeating point' of the data (i.e: the point where I belive the yearly temperature starts the next cycle).
 Using this method, I found an average of 650 days in a Martian year.
